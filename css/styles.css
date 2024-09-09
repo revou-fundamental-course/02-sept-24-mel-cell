@@ -1,0 +1,33 @@
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.selection-content{
+    display: flex;
+    flex-direction: column;
+}
+.selection-btn{
+    height: 38px;
+    background-color: blue;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+}
+.selection-btn1{
+    border: 0;
+    background-color: white;
+    border-radius: 8px;
+    padding-top: 13px;
+    padding-bottom: 23px;
+    color: blue;
+}
+.luas-segitiga-header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
