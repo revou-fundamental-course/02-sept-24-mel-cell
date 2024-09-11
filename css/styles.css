@@ -10,7 +10,7 @@ h1{
 }
 .selection-btn{
     height: 38px;
-    background-color: blue;
+    background-color: orange;
     border: 0;
     border-radius: 8px;
     color: white;
@@ -21,13 +21,29 @@ h1{
     border-radius: 8px;
     padding-top: 13px;
     padding-bottom: 23px;
-    color: blue;
+    color: rgb(42, 42, 68);
 }
 .luas-segitiga-header{
     padding-top: 32px;
     padding-bottom: 32px;
     margin: 0;
-    background-color: blue;
+    background-color: orange;
     text-align: center;
     color: white;
+    border-radius: 8px;
+}
+img{
+    height: 250px;
+    width: 282px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.rumus_luas_segitiga{
+text-align: left;
+margin-bottom: 0;
+}
+.rumus_luas{
+    font-weight: bold;
+    margin-top: 5px;
 }
