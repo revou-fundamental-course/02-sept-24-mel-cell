@@ -1,44 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>kalkulator</title>
-</head>
-<body>
-    <!-- header-->
-     <header>
-        <h1>welcome to katik</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>kalkulator</title>
+        <script src="./js/script.js"></script>
+    </head>
+    <body>
+        <!-- header-->
+        <header>
+            <h1>welcome to katik</h1>
 
-        <p>hallo sobat, selamat datang di katik :]</p>
-        <p>sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
-    
-<!-- content-->
- <main>
-<section class="selection-content">
-    <button href="#" type="button" class="selection-btn">segitiga</button>
-    <button href="#" type="button" class="selection-btn1">jajar genjang</button>
-</section>
+            <p>hallo sobat, selamat datang di katik :]</p>
+            <p>sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar segitiga</p>
+        </header>
+        <!-- content-->
+        <main>
+            <section class="selection-content">
+                <a href="segitiga.html" class="selection-btn"> <button class="selection-btn">segitiga</button></a>
+                <a href="jajar_genjang.html" class="selection-btn_1"> <button class="selection-btn_1">jajar genjang</button></a>
+            </section>
+            <section>
+                <header>
+                    <h1 class="luas-segitiga-header">luas segitiga</h1>
+                </header>
 
-<section>
-<header>
-    <h1 class="luas-segitiga-header">luas segitiga</h1>
-</header>
+                <article>
+                    <div class="luas-segitiga-img">
+                        <img src="aset/formula segitiga.jpg"" alt="formula segitiga">
+                    </div>
+                    <br>
+                    <div>
+                        <p class="rumus_luas_segitiga">Rumus Luas Segitiga Yaitu:</p>
+                        <p class="rumus_luas">L=1/2 x a x </p>
+                    </div>
+                </article>
+                <hr>
+                <h1> Hitung liuas segitiga</h1>
+                <form>
+                    <input type="number" name="" id="alas">
+                    <input type="number" name="" id="tinggi">
+                    <button type="button" onclick="hitung(parseFloat(document.getElementById('alas').value), parseFloat(document.getElementById('tinggi').value) )">
+                        Hitung
+                    </button>
 
-<article>
-    <div class="luas-segitiga-img">
-        <img src="aset/formula segitiga.jpg"" alt="formula segitiga">
-    </div>
-    <br>
-    <div>
-<p class="rumus_luas_segitiga">Rumus Luas Segitiga Yaitu:</p>
-<p class="rumus_luas">L=1/2 x a x </p>
-    </div>
-</article>
+                    <input type="text" id="hasil" disabled>
+                </form>
 
-<form class=""></form>
-</section>
- </main>
-</body>
+            </section>
+        </main>
+        
+    </body>
 </html>
